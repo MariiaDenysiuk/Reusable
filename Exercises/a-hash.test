@@ -1,7 +1,7 @@
 [
   {
     name: 'findPhoneByName',
-    length: [20, 30],
+    length: [20, 300],
     test: findPhoneByName => {
       const src = findPhoneByName.toString();
       if (src.includes('for (')) throw new Error('Do not use for loop');
