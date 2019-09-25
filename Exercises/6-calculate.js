@@ -2,7 +2,7 @@
 
 const square = x => x * x;
 
-const cube = x => Math.pow(x, 3);
+const cube = x => x ** 3;
 
 const average = (a, b) => (a + b) / 2;
 
